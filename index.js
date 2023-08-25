@@ -15,7 +15,7 @@ app.get('/scrape', async (req, res) => {
     }
 });
 
-const port = 3000;
+const port = 3333;
 app.listen(port, () => {
     console.log(`Servidor rodando em http://localhost:${port}`);
 });
